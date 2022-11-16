@@ -1,0 +1,19 @@
+.place__paragraph {
+    grid-row: 2;
+    grid-column: 2;
+    max-width: 484px;
+    max-height: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+    margin-bottom: 0;
+}
