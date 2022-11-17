@@ -5,6 +5,32 @@
     max-width: 1184px;
     height: 52px;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     margin: 28px auto 0;
+}
+
+
+@media screen and (max-width: 1023.99px) {
+    .header {
+        width: calc(100% - 2*48px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 2*24px);
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        max-width: 424.99px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 329.99px;
+    }
 }

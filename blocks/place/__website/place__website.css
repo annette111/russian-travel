@@ -7,3 +7,9 @@
     max-width: 456px;
     margin-left: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }
+}

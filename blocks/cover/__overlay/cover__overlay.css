@@ -7,21 +7,9 @@
 }
 
 .cover__overlay::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+
     background-color: #2A2C2F;
     opacity: 0.3;
     z-index: -1;
     transition: opacity 0.3s ease;
-}
-
-
-
-.cover__overlay:hover::before {
-
-    opacity: 0.8;
 }
