@@ -10,3 +10,7 @@
     color: #FFFFFF;
     margin-top: 12px;
 }
+
+.place__website-link:hover {
+    opacity: 0.3;
+}
