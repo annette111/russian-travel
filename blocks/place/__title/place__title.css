@@ -25,6 +25,7 @@
         max-height: 92px;
         font-size: 42px;
         line-height: 110%;
+
     }
 }
 
@@ -33,5 +34,11 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place__title {}
+    .place__title {
+        width: 288px;
+        height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto 32px;
+    }
 }

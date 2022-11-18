@@ -10,3 +10,11 @@
     /* identical to box height, or 114% */
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        height: 14px;
+        line-height: 14px;
+        margin: 0;
+    }
+}

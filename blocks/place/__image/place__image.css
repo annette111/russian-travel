@@ -17,7 +17,6 @@
 @media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
-
     }
 }
 
@@ -26,5 +25,9 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place__image {}
+    .place__image {
+        object-fit: cover;
+        max-width: 320px;
+        margin-bottom: 32px;
+    }
 }

@@ -1,5 +1,6 @@
 .cover__title {
-    width: 560px;
+    width: 100%;
+    max-width: 560px;
     max-height: 152px;
     font-family: 'Inter';
     font-style: normal;
@@ -11,4 +12,12 @@
     text-align: center;
     color: #FFFFFF;
 
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
