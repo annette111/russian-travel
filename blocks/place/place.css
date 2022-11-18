@@ -36,7 +36,7 @@
         height: min-content;
         row-gap: 0;
         margin-bottom: 50px;
-        max-height: fit-content;
+        height: fit-content;
     }
 }
 
@@ -48,6 +48,6 @@
         height: min-content;
         row-gap: 0;
         margin-bottom: 50px;
-        max-height: fit-content;
+        height: fit-content;
     }
 }

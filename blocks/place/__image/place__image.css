@@ -2,7 +2,6 @@
     grid-row: 2;
     grid-column: 1;
     max-width: 460px;
-    max-height: 460px;
     display: flex;
     justify-self: start;
 }
@@ -10,7 +9,6 @@
 @media screen and (max-width: 1024px) {
     .place__image {
         max-width: 440px;
-        max-height: 440px;
     }
 }
 
@@ -18,10 +16,6 @@
     .place__image {
         max-width: 340px;
     }
-}
-
-@media screen and (max-width: 425px) {
-    .place__image {}
 }
 
 @media screen and (max-width: 320px) {
