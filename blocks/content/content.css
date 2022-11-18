@@ -1,6 +1,6 @@
 .content {
     width: 100%;
-    max-width: calc(100% - 2*48);
+    max-width: 1280px;
     margin: 0 auto 0;
 }
 
