@@ -26,8 +26,15 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    .footer {}
+@media screen and (max-width: 625px) {
+    .footer {
+        margin-left: 16px;
+        margin-bottom: 24px;
+        width: 186px;
+        min-height: 310px;
+        flex-direction: column;
+        align-content: space-between;
+    }
 }
 
 @media screen and (max-width: 320px) {

@@ -32,13 +32,16 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    .place__paragraph {}
+@media screen and (max-width: 625px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
         width: 288px;
         margin: 0 auto 25px;
+
     }
 }
