@@ -28,16 +28,6 @@
     }
 }
 
-@media screen and (max-width: 625px) {
-    .place {
-        display: flex;
-        flex-direction: column;
-        justify-items: flex-start;
-        row-gap: 0;
-        margin-bottom: 50px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .place {
         display: flex;

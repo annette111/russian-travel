@@ -1,4 +1,7 @@
 .cover__background {
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
     background-image: url(../../../images/__background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,32 +10,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
     position: relative;
-    z-index: 1;
+    object-fit: cover;
 }
 
-.cover__background ::before {
+.cover__background::before {
+    width: 100%;
+    min-height: 100%;
+    background-color: #2A2C2F;
     content: '';
+    display: block;
     position: absolute;
     left: 0;
-    right: 0;
     top: 0;
-    bottom: 0;
-    background-color: #2A2C2F;
     opacity: 0.3;
-    z-index: -1;
-    transition: opacity 0.3s ease;
+
 }
 
-
-
-.cover__background:hover {
+.cover__background:hover::before {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__background {
-        min-height: calc(740px - 100px);
+        min-height: 640px;
     }
 }
 

@@ -15,25 +15,15 @@
 
 @media screen and (max-width: 768px) {
     .intro__text {
-        width: calc(100% - 2*24px);
-        font-size: 16px;
-        line-height: 163%;
+        max-width: 720px;
         margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__text {
-        font-size: 16px;
-        line-height: 163%;
+        max-width: 288px;
         margin-left: 0px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__text {
-        font-size: 16px;
-        line-height: 163%;
-        margin-left: 0px;
+        margin-right: 0;
     }
 }

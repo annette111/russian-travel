@@ -1,7 +1,6 @@
 .footer__copyright {
     margin: auto 0;
-    width: 186px;
-    height: 16px;
+    max-width: 186px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -9,11 +8,11 @@
     line-height: 16px;
     /* identical to box height, or 114% */
     color: #FFFFFF;
+    text-align: right;
 }
 
 @media screen and (max-width: 650px) {
     .footer__copyright {
-        height: 14px;
         line-height: 14px;
         margin: 0;
     }
@@ -23,6 +22,7 @@
     .footer__copyright {
         height: 14px;
         line-height: 14px;
-        margin: 0;
+        margin-top: 16px;
+        text-align: left;
     }
 }
