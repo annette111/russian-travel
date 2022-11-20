@@ -17,25 +17,20 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraph {
-        max-width: 456px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
-        max-width: 352px;
         font-size: 16px;
         line-height: 25.99px;
         margin-bottom: 25px;
+        /*на данном разрешении экрана размер отступа 25рх по фигме, но я если правильно поняла то в след медиазапросе этот параметр продублировала, сейчас удалила*/
     }
 }
 
 @media screen and (max-width: 615px) {
     .place__paragraph {
         max-width: 596px;
-        margin: 0 auto 25px;
+        margin-left: 16px;
 
     }
 }
