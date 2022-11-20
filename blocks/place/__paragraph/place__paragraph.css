@@ -1,6 +1,7 @@
 .place__paragraph {
     grid-row: 2;
     grid-column: 2;
+    width: 100%;
     max-width: 484px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -9,8 +10,7 @@
     line-height: 163%;
     /* or 29px */
     color: #FFFFFF;
-    margin-top: 0;
-    margin-bottom: 26px;
+    margin: 0 0 26px 0;
 }
 
 .place__paragraph:last-child {
@@ -32,16 +32,16 @@
     }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 615px) {
     .place__paragraph {
-        margin-bottom: 25px;
+        max-width: 596px;
+        margin: 0 auto 25px;
+
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        width: 288px;
-        margin: 0 auto 25px;
-
+        max-width: 288px;
     }
 }

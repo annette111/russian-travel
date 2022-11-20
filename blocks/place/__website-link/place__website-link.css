@@ -13,3 +13,15 @@
 .place__website-link:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 615px) {
+    .place__website-link {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website-link {
+        margin-bottom: 0;
+    }
+}
