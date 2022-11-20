@@ -29,8 +29,9 @@
 
 @media screen and (max-width: 615px) {
     .place__paragraph {
+        text-align: inherit;
         max-width: 596px;
-        margin-left: 16px;
+
 
     }
 }
@@ -38,5 +39,6 @@
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
+        margin-left: 16px;
     }
 }
